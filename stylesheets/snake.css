@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    margin: 2px;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+p{
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+    margin: 12px auto 20px auto;
+}
+#container{
+    border: 1px solid black;
+    border-radius: 90px 90px 80px 80px;
+    width: 380px;
+    height: 650px;
+    text-align: center;
+    margin: auto;
+    background-color: #353586;
+}
+
+#greybar{
+    width: 350px;
+    background-color: #353586;
+    border-radius: 80px 80px 180px 180px;
+    border: 8px solid lightgray;
+    border-bottom: 36px solid lightgray;
+    margin: 10px auto;
+}
+
+#canvas{
+    border: 1px solid #353586;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: rgb(204, 214, 177);
+}
+
+#speaker{
+    height: 80px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 90%;
+    margin: 8px auto;
+}
+
+#speaker .spkr{
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+    margin-top: 8px;
+}
+
+#keypad{
+    width: 300px;
+    height: 150px;
+    margin: auto;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    margin: 4px 10px;
+    border-radius: 70% 30% 70% 30%;
+    background-color: #BCB7B7;
+    font-weight: 800;
+}
+
+.mid{
+    border-radius: 50%;
+}
+
+.left{
+    border-radius: 30% 70% 30% 70%;
+}
